@@ -32,3 +32,44 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+#include <iostream>
+#include <algorithm> // 包含 std::min 函數
+
+using namespace std;
+
+int main() {
+    // 定義四個整數變數
+    int num1, num2, num3, num4;
+
+    // 輸入四個整數
+    cout << "請輸入第一個整數: ";
+    cin >> num1;
+    cout << "請輸入第二個整數: ";
+    cin >> num2;
+    cout << "請輸入第三個整數: ";
+    cin >> num3;
+    cout << "請輸入第四個整數: ";
+    cin >> num4;
+
+    // 使用 std::min 函數找出最小的數字
+    int min_num = min({num1, num2, num3, num4});
+
+    // 顯示最小的數字
+    cout << "四個數字中的最小的數是: " << min_num << endl;
+
+    return 0;
+}
+
+
+
+
+
+
+
+
