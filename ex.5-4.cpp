@@ -30,3 +30,50 @@ int main() {
     return 0;
 }
 
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, sum_input;
+
+    // 輸入兩個數字
+    cout << "請輸入第一個數字: ";
+    cin >> a;
+    cout << "請輸入第二個數字: ";
+    cin >> b;
+
+    // 輸入預計的和
+    cout << "請輸入兩數之和: ";
+    cin >> sum_input;
+
+    // 計算兩數的實際和
+    int actual_sum = a + b;
+
+    // 判斷輸入的和是否正確
+    if (sum_input == actual_sum) {
+        cout << "沒錯" << endl;
+    } else {
+        cout << "錯誤" << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
