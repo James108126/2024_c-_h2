@@ -16,7 +16,7 @@ int main() {
     cin >> length;
     if (length <= 0) {
         cout << "長度必須是正數!" << endl;
-        return 1; // 結束程式
+        return 1; 
     }
 
   
@@ -24,7 +24,7 @@ int main() {
     cin >> width;
     if (width <= 0) {
         cout << "寬度必須是正數!" << endl;
-        return 1; // 結束程式
+        return 1; 
     }
 
 
