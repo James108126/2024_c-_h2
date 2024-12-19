@@ -4,28 +4,26 @@
 
 
 
-
 #include <iostream>
 using namespace std;
 
 int main() {
-   
     int num1, num2, num3, num4;
 
-   
-    cout << "Please enter the first integer: ";
+
+    cout << "Enter the first integer: ";
     cin >> num1;
-    cout << "Please enter the second integer: ";
+    cout << "Enter the second integer: ";
     cin >> num2;
-    cout << "Please enter the third integer: ";
+    cout << "Enter the third integer: ";
     cin >> num3;
-    cout << "Please enter the fourth integer: ";
+    cout << "Enter the fourth integer: ";
     cin >> num4;
 
    
     int min_num = num1;
 
-    
+
     if (num2 < min_num) {
         min_num = num2;
     }
@@ -37,7 +35,10 @@ int main() {
     }
 
 
+    cout << "The smallest number is: " << min_num << endl;
 
+    return 0;
+}
 
 
 
